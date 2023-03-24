@@ -8,7 +8,9 @@ step 2: click [this link](https://github.com/bean-frog/schoology-stylemod-v2/raw
 
 # Fucking features or some shit idk i was told i should add this part
   - Windows 10 style draggable menu window, planning to add linux/mac styles but probably not go fuck yourself <br>
+  - change background
+  - change content opacity
   - Somewhat robust color customization, current things you can change the color of are:
     - header
-    - yep. thats it for now.
+    - background
   
