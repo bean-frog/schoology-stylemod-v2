@@ -14,3 +14,9 @@ step 2: click [this link](https://github.com/bean-frog/schoology-stylemod-v2/raw
     - header
     - background
   
+# features that are going to be added but im lazy so dont count on it
+  - block posts from a certain user
+  - change border color
+  - change text color
+  - basic prebuilt themes
+  - custom css support/schoology+ themes???? maybe
