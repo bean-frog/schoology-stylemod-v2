@@ -20,3 +20,5 @@ step 2: click [this link](https://github.com/bean-frog/schoology-stylemod-v2/raw
   - change text color
   - basic prebuilt themes
   - custom css support/schoology+ themes???? maybe
+  
+  # how tf do i save styles with local storage or smth so you dont have to redo them agh
