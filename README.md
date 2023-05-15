@@ -8,17 +8,15 @@ step 2: click [this link](https://github.com/bean-frog/schoology-stylemod-v2/raw
 
 # features or some shit idk i was told i should add this part
   - Windows 10 style draggable menu window, planning to add linux/mac styles but probably not go fuck yourself <br>
-  - change background
+  - change background image
   - change content opacity
-  - Somewhat robust color customization, current things you can change the color of are:
-    - header
-    - background
+  - change header color
+  - hide posts from a certain user
+ 
   
 # features that are going to be added but im lazy so dont count on it
-  - block posts from a certain user
   - change border color
   - change text color
   - basic prebuilt themes
   - custom css support/schoology+ themes???? maybe
   
-  # how tf do i save styles with local storage or smth so you dont have to redo them agh
