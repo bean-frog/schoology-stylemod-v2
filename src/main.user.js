@@ -1,3 +1,19 @@
+// ==UserScript==
+// @name         better schoology style mod
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  schoology style mod thing that looks like windows
+// @author       You
+// @match        https://pausd.schoology.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=pausd.schoology.com
+// @grant        none
+// @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js
+// @require      https://code.jquery.com/ui/1.13.2/jquery-ui.js
+// ==/UserScript==
+/* IMPORTANT THINGS IDK
+.clearfix - opacity layer
+#body - background stuff
+*/
 (function() {
     'use strict';
     $(document).ready(function() {
@@ -240,6 +256,11 @@
     menu.style.display = "none"
     menu.insertAdjacentElement('afterbegin', headercolorpicker);
     menu.insertAdjacentElement('afterbegin', bgimg);
+    //issue link
+    let submitissue = document.createElement('p');
+    submitissue.innerHTML = "Bug? Report it <a target='_blank'href='https://github.com/bean-frog/schoology-stylemod-v2/issues/new/choose'>here</a>"
+    submitissue.style.bottom = "5px";
+    submitissue.style.left = "5px";
     const opacityslider = document.createElement('input');
     opacityslider.type = 'range';
     opacityslider.id = 'opacity-slider';
@@ -351,7 +372,9 @@
     opacityslider.insertAdjacentElement('afterend', htlabel);
     menu.appendChild(textBox);
     textBox.insertAdjacentElement('afterend', filterButton)
-    filterButton.insertAdjacentElement('afterend', clearButton)
+    filterButton.insertAdjacentElement('afterend', clearButton);
+        clearButton.insertAdjacentElement('afterend', submitissue)
+
     filterButton.addEventListener('click', filterPosts);
     clearButton.addEventListener('click', clearFilter);
     function filterPosts() {
