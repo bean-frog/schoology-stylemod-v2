@@ -12,6 +12,7 @@ step 2: click [this link](https://github.com/bean-frog/schoology-stylemod-v2/raw
   - change content opacity
   - change header color
   - hide posts from a certain user
+  - silly goofy lil easter egg dm if find
  
   
 # features that are going to be added but im lazy so dont count on it
