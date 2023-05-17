@@ -28,4 +28,15 @@ step 5: go to schoology and reload
   - change text color
   - basic prebuilt themes
   - custom css support/schoology+ themes???? maybe
+
+# how each thing works for the nerds who want to know
+#### Background Image:
+function takes the user uploaded image and converts it into a base64 encoded string, so that it can be stored as a key-value pair in local storage. `background-image` css property of the `#body` element is then set to that string. on document load, the function checks local storage for the key and string. if the key exists and it has valid base64 as its value, the element is set. if not, the function waits until an image is uploaded.
+#### Header Color:
+this one was a little more complicated. i made a custom version of the palo alto senior high school logo because the original did not have a transparent background. at the beginning of the document, several css rules are defined using jQuery's `$(element).css(...)` function. some of these make the buttons and text elements of the header transparent. by default the header looks exactly the same aside from the slightly modified school logo. a function checks a color input for its hex value and again saves that as a key-value pair in local storage. just like the background image, this is checked for on document load and css rules are changed appropriately if applicable.
+#### Content Opacity: 
+function reads the value of a slider and assigns it a decimal from 0 to 1 which is stored in local storage. the opacity of the `.clearfix` layer is set to this value and once again on document load if the value exists already in local storage
+#### Hide Teachers:
+this one is fun to use but was a nightmare to code because stuff just kept not working. in the userscript version, while a value is saved to local storage, on document load it does not hide the teacher. however in the extension version it seems to work fine. a function looks at the value of the text box and searches all of the post authors that are loaded when it runs. if any of the post authors matches the value, whichever post element it is a child of is hidden. the clear button both shows all hidden posts as well as clears the local storage value.
+
   
