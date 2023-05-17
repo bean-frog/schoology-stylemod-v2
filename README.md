@@ -9,7 +9,7 @@ step 2: click [this link](https://github.com/bean-frog/schoology-stylemod-v2/raw
 # install as extensiion
 step 1: go to the [latest release](https://github.com/bean-frog/schoology-stylemod-v2/releases/latest) <br>
 step 2: download schoology-mod.crx <br>
-step 3: go to your browser's extension panel (usually <browser name>://extensions, for example: brave://extensions) <br>
+step 3: go to your browser's extension panel (usually browser-name://extensions, for example: brave://extensions) <br>
 step 4: drag and drop schoology-mod.crx to that menu and it will open a window to confirm <br>
 step 5: go to schoology and reload
   (actual extension on the Chrome Web Store will come at some point when this mod is actually good)
