@@ -1,5 +1,6 @@
 # schoology-stylemod-v2
-literally so much better if you're using v1 then go kys (in minecraft of course)
+literally so much better if you're using v1 then go kys (in minecraft of course) <br>
+ALSO: the extension version recieves less frequent updates because building it is annoying
 
 # install as userscript
 step 1: have tampermonkey installed. if you don't want to install tampermonkey then use the extension thing below <br>
